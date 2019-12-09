@@ -38,7 +38,7 @@ class App extends Component {
         <Navbar />
 
         <div className="container">
-          <Alert alert={this.state.alert} />
+          <Alert alert={alert} />
 
           <Search
             searchUsers={this.searchUsers}
