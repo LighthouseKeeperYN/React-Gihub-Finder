@@ -74,6 +74,7 @@ export class User extends Component {
               <li>
                 {login && (
                   <Fragment>
+                    {' '}
                     <strong>Username:</strong> {login}
                   </Fragment>
                 )}
@@ -92,6 +93,15 @@ export class User extends Component {
                   </Fragment>
                 )}
               </li>
+            </ul>
+
+            <ul>
+              <li>
+                <p>
+                  <span>qweqwee qweqweq</span>
+                </p>
+              </li>
+              <li>qweqwee qweqweqqweqwee qweqweqqweqwee qweqweqqweqwee qweqweqqweqwee qweqweq</li>
             </ul>
           </div>
         </div>
